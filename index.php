@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>  
-    <script defer src="index.js"></script>
+    <script defer async src="index.js"></script>
     <script>
       $(document).ready(function(){
         $('#myTable').DataTable();
