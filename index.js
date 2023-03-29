@@ -21,7 +21,7 @@ deleteBtn.forEach(element=>{
     element.addEventListener("click",e=>{
         let SNo = e.target.id;
         if(confirm("Are you sure, you want to delete this note?")){
-            window.location = `/CRUD SQL/index.php?delete=${SNo}`;
+            window.location = `index.php?delete=${SNo}`;
         }
         else{
             console.log("No");

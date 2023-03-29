@@ -1,10 +1,6 @@
 <?php
 // Create a database 
 include 'create_notesdb.php';
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "notesdb";
 $insert = false;
 $delete = false;
 $update = false;
@@ -200,4 +196,6 @@ if($delete){
     </tbody>
   </table>
 </div>
+
+<?php mysqli_close($conn);?>
 
