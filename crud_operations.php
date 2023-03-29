@@ -1,6 +1,6 @@
 <?php
 // Create a database 
-include 'create_notesdb.php';
+include_once 'db_config.php.php';
 $insert = false;
 $delete = false;
 $update = false;
