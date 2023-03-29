@@ -5,7 +5,7 @@ CRUD basically stands for create, read, update and delete operations on database
 1. Create a database 'notesdb' on MySQL phpmyadmin
 2. Inside the 'notesdb' database, we will create a 'Notes' table, which contains 4 different columns:
 ------------------------------
-  # COLUMN_NAME  DATA_TYPE
+    COLUMN_NAME  DATA_TYPE
     S.N         --> INT
     Title       --> VARCHAR(200)
     Description --> TEXT
@@ -27,7 +27,7 @@ We are hosting this project in XAMPP development server which is okay for now, l
 Inside root folder of htdocs, we create a new folder named PHP_CRUD_APP. 
 
 # Project Directory Structure 
-  PHP_CRUD_APP/
+    PHP_CRUD_APP/
           crud_operations.php ==> (CRUD Logics)
           db_config.php
           index.js 
