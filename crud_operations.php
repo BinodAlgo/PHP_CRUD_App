@@ -1,6 +1,6 @@
 <?php
 // Create a database 
-include_once 'db_config.php.php';
+include_once 'db_config.php';
 $insert = false;
 $delete = false;
 $update = false;
