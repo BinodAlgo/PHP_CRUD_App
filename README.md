@@ -1,6 +1,8 @@
-# PHP CRUD Model 
----- What is CRUD ?
-CRUD basically stands for create, read, update and delete operations on database. In our case, we are handling the backend part of this project with PHP scripts and MySQL as a database system. 
+# PHP PROJECT 2 - NOTE TAKING APP 
+---- 
+# What is CRUD Model ?
+
+CRUD model basically stands for create, read, update and delete operations on database. In our case, we are handling the backend part of this project with PHP scripts and MySQL as a database system. 
 # What Will We Do ? 
 1. Create a database 'notesdb' on MySQL phpmyadmin
 2. Inside the 'notesdb' database, we will create a 'Notes' table, which contains 4 different columns:
@@ -12,7 +14,11 @@ CRUD basically stands for create, read, update and delete operations on database
     Timestamp   --> DATETIME 
 
 ------------------------------
+
 # How Does This Project Work ?
+When you visit the home page of this project, you will see the interface that allows you to add notes to the database. There is a interactive table below the add note button, which display the notes from the databases, also you can edit or delete the old notes. 
+
+# Project Setup 
 
 ---- MySQL Database Setup
 
@@ -22,7 +28,8 @@ We are using PHP in-built 'mysqli' extension for this project, which is not requ
 2. Object Oriented Programming Way
 For simplicity, we are doing in the first way i.e. functional way. 
 
----- PHP Project File Setup 
+---- PHP Apache Setup 
+
 We are hosting this project in XAMPP development server which is okay for now, later we will host this website to a production ready server with our own domain name and custom configuration. 
 Inside root folder of htdocs, we create a new folder named PHP_CRUD_APP. 
 
